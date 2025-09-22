@@ -98,13 +98,17 @@ export function HeroSection() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-12">
-                <Button size="lg" className="group animate-glow">
-                  <Code className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
-                  View My Work
-                </Button>
-                <Button variant="outline" size="lg">
-                  Get In Touch
-                </Button>
+                <a href="#experience">
+                  <Button size="lg" className="group animate-glow hover:cursor-pointer">
+                    <Code className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
+                    View My Work
+                  </Button>
+                </a>
+                <a href="#contact">
+                  <Button variant="outline" size="lg" className="hover:cursor-pointer hover:text-white">
+                    Get In Touch
+                  </Button>
+                </a>
               </div>
             </div>
 
