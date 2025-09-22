@@ -6,7 +6,7 @@ import { Mail, MessageCircle, ArrowRight } from "lucide-react"
 
 export function ContactSection() {
   const handleEmailClick = () => {
-    window.location.href = "mailto:your.email@example.com?subject=Let's work together!"
+    window.location.href = "mailto:nick.hubbard@twebor.com?subject=Let's work together!"
   }
 
   return (
