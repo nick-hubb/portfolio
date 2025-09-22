@@ -59,25 +59,26 @@ export function AboutSection() {
         </div>
 
         {/* Professional Summary */}
-        <Card className="p-8 mb-12 bg-gradient-to-r from-primary/5 to-accent/5 border-primary/20">
-          <div className="flex items-start gap-4 mb-6">
-            <div className="p-3 rounded-lg bg-primary/10">
-              <Code className="h-6 w-6 text-primary" />
+        <div id="summary" className="mb-16">
+          <Card className="p-8 mb-12 bg-gradient-to-r from-primary/5 to-accent/5 border-primary/20">
+            <div className="flex items-start gap-4 mb-6">
+              <div className="p-3 rounded-lg bg-primary/10">
+                <Code className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-3">Professional Summary</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Highly motivated Computer Science graduate with a passion for developing innovative solutions to complex software challenges. 
+                  I bring a collaborative approach and entrepreneurial spirit to every project, with a strong focus on continuous learning and 
+                  staying current with advancing technologies. My goal-oriented mindset drives me to challenge barriers and expand my knowledge base 
+                  while delivering exceptional results for clients and teams.
+                </p>
+              </div>
             </div>
-            <div>
-              <h3 className="text-2xl font-semibold mb-3">Professional Summary</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Highly motivated Computer Science graduate with a passion for developing innovative solutions to complex software challenges. 
-                I bring a collaborative approach and entrepreneurial spirit to every project, with a strong focus on continuous learning and 
-                staying current with advancing technologies. My goal-oriented mindset drives me to challenge barriers and expand my knowledge base 
-                while delivering exceptional results for clients and teams.
-              </p>
-            </div>
-          </div>
-        </Card>
-
+          </Card>
+        </div>
         {/* Experience Timeline */}
-        <div className="mb-16">
+        <div id="experience" className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <Briefcase className="h-6 w-6 text-primary" />
             <h3 className="text-3xl font-bold">Professional Experience</h3>
@@ -107,7 +108,7 @@ export function AboutSection() {
         </div>
 
         {/* Notable Projects */}
-        <div className="mb-16">
+        <div id="projects" className="mb-16">
           <div className="flex items-center gap-3 mb-8">
             <Award className="h-6 w-6 text-primary" />
             <h3 className="text-3xl font-bold">Notable Projects</h3>

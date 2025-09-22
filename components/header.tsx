@@ -12,8 +12,8 @@ export function Header({ name }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const menuItems = [
-    { label: "Work Experience", href: "#experience" },
-    { label: "Certifications", href: "#certifications" },
+    { label: "Work Experience", href: "#summary" },
+    { label: "Projects", href: "#projects" },
     { label: "GitHub", href: "https://github.com/nick-hubb", external: true },
     { label: "Resume", href: "/resume.pdf", external: true },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/nick-hubbard/", external: true },
