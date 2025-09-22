@@ -74,7 +74,7 @@ export function HeroSection() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none opacity-90" />
 
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 mt-24 md:mt-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left side - Text content */}
             <div className="text-center lg:text-left">
@@ -83,7 +83,7 @@ export function HeroSection() {
                 <span className="text-sm text-accent-foreground font-medium">Available for new opportunities</span>
               </div>
 
-              <h1 className="text-8xl md:text-6xl font-bold mb-6 text-balance">
+              <h1 className="text-6xl font-bold mb-6 text-balance">
                 <span className="bg-gradient-to-r from-accent via-primary to-foreground bg-clip-text text-transparent">
                   Nick Hubbard
                 </span>
