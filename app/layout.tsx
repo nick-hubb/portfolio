@@ -38,9 +38,20 @@ const amaticSC = Amatic_SC({
 })
 
 export const metadata: Metadata = {
-  title: "Your Name - Developer Portfolio",
+  title: "Nick Hubbard - Portfolio",
   description: "Full-stack developer specializing in modern web technologies",
   generator: "v0.app",
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico", rel: "icon" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [
+      { url: "/favicon/apple-touch-icon.png", sizes: "180x180" },
+    ],
+  },
+  manifest: "/favicon/site.webmanifest",
 }
 
 export default function RootLayout({

@@ -12,6 +12,9 @@ export default function Home() {
       <AboutSection />
       <SkillsSection />
       <ContactSection />
+      <div id="footer" className="text-center text-sm text-muted-foreground mb-12">
+        <p>Favicon provided by <a href="https://www.flaticon.com/free-icons/web-design" title="web design icons">Flaticon</a></p>
+      </div>
     </main>
   )
 }
